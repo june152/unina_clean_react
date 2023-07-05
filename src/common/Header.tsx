@@ -6,7 +6,7 @@ import '../styles/common.css'
 import '../styles/style.css'
 import Logo from '../assets/images/logo.png'
 
-const Header = () => {
+const Header = ({handleModalToggle} : {handleModalToggle : Function}) => {
     const navigate = useNavigate()
 
     return (
@@ -44,7 +44,7 @@ const Header = () => {
                                 <li><a href="#" onClick={() => navigate("/officecleaning")}>사무실/상가 청소</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">견적 문의</a></li>
+                        <li><a onClick={() => handleModalToggle(true)}>견적 문의</a></li>
                     </ul>
                 </nav>
             </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useRoutes, Navigate } from "react-router-dom";
 
 import './App.css';
@@ -9,8 +9,14 @@ import Header from './common/Header';
 import Footer from './common/Footer';
 import HomeCleaning from './pages/HomeCleaning';
 import OfficeCleaning from './pages/OfficeCleaning';
+import Modal from './common/Modal';
 
 function App() {
+  const [modalVisible, setModalVisible] = useState(false)
+  const handleModalToggle = (isVisible : boolean) => {
+    setModalVisible(isVisible)
+  }
+
   const routes = useRoutes([
     {
       path: "*",
@@ -50,9 +56,14 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header handleModalToggle={handleModalToggle} />
       {routes}
       <Footer />
+      {
+        modalVisible && (
+          <Modal handleModalToggle={handleModalToggle} />
+        )
+      }
     </div>
   );
 }

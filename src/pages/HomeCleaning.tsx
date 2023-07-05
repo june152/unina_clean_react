@@ -43,6 +43,7 @@ const HomeCleaning = () => {
                         <div className="flex sidebar-container">
                             <SideLeft
                                 category='home'
+                                page={Number(page)}
                             />
                             <div className="single-right-main-wrap">
                                 <div className="single-right-main">
