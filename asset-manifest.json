@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/june152/unina_clean_react/static/css/main.ded3bd50.css",
+    "main.js": "/june152/unina_clean_react/static/js/main.0ed2d354.js",
+    "static/js/787.af02c031.chunk.js": "/june152/unina_clean_react/static/js/787.af02c031.chunk.js",
+    "static/media/title_image.png": "/june152/unina_clean_react/static/media/title_image.8c50e0475d647f4f5f58.png",
+    "static/media/main_05.png": "/june152/unina_clean_react/static/media/main_05.97103044c9f616166a0b.png",
+    "static/media/main_08.png": "/june152/unina_clean_react/static/media/main_08.024709225c7edf9e34bf.png",
+    "static/media/main_07.png": "/june152/unina_clean_react/static/media/main_07.888f4094a5fc8c565f15.png",
+    "static/media/main_06.png": "/june152/unina_clean_react/static/media/main_06.70dd35ab6706aa7e9bd3.png",
+    "static/media/slider_01.jpeg": "/june152/unina_clean_react/static/media/slider_01.d7096cb8a543cba8a3c5.jpeg",
+    "static/media/image_01.png": "/june152/unina_clean_react/static/media/image_01.62e02a2423d9ca991477.png",
+    "static/media/image_02.png": "/june152/unina_clean_react/static/media/image_02.eefe639004991adc7c0e.png",
+    "static/media/main_01.png": "/june152/unina_clean_react/static/media/main_01.66eb7d43dbbf0c7b9921.png",
+    "static/media/slider_02.jpg": "/june152/unina_clean_react/static/media/slider_02.bb9bff0144ec7c80919e.jpg",
+    "static/media/floor_plant.png": "/june152/unina_clean_react/static/media/floor_plant.1f998ba1f1ca79b5cd94.png",
+    "static/media/main_04.png": "/june152/unina_clean_react/static/media/main_04.e1be6ed2c73feb48420b.png",
+    "static/media/main_02.png": "/june152/unina_clean_react/static/media/main_02.32763e3662c96ca9fe76.png",
+    "static/media/main_03.png": "/june152/unina_clean_react/static/media/main_03.50b7b5dc99ec2c858991.png",
+    "static/media/icon_call_w.png": "/june152/unina_clean_react/static/media/icon_call_w.65ab53ed50908a6b0b9a.png",
+    "index.html": "/june152/unina_clean_react/index.html",
+    "main.ded3bd50.css.map": "/june152/unina_clean_react/static/css/main.ded3bd50.css.map",
+    "main.0ed2d354.js.map": "/june152/unina_clean_react/static/js/main.0ed2d354.js.map",
+    "787.af02c031.chunk.js.map": "/june152/unina_clean_react/static/js/787.af02c031.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ded3bd50.css",
+    "static/js/main.0ed2d354.js"
+  ]
+}
