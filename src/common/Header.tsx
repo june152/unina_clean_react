@@ -13,7 +13,7 @@ const Header = ({handleModalToggle} : {handleModalToggle : Function}) => {
         <header className="header">
             <div className="header-wrap clearfix">
                 <h1>
-                    <a href="#" onClick={() => navigate("/unina_clean_react/home")}>
+                    <a href="#" onClick={() => navigate("/home")}>
                         <img src={Logo} alt="유니나 청소 로고" />
                         <span className="hide">유니나 청소</span>
                     </a>
@@ -31,17 +31,17 @@ const Header = ({handleModalToggle} : {handleModalToggle : Function}) => {
                         <i className="fa fa-times" aria-hidden="true"></i>
                     </button>
                     <ul className="gnb clearfix">
-                        <li><a href="#" onClick={() => navigate("/unina_clean_react/home")}>홈</a></li>
-                        <li><a href="#" onClick={() => navigate("/unina_clean_react/homecleaning")}>홈클리닝</a>
+                        <li><a href="#" onClick={() => navigate("/home")}>홈</a></li>
+                        <li><a href="#" onClick={() => navigate("/homecleaning")}>홈클리닝</a>
                             <ul className="lnb">
-                                <li><a href="#" onClick={() => navigate("/unina_clean_react/homecleaning/1")}>입주청소</a></li>
-                                <li><a href="#" onClick={() => navigate("/unina_clean_react/homecleaning/2")}>이사청소</a></li>
-                                <li><a href="#" onClick={() => navigate("/unina_clean_react/homecleaning/3")}>거주청소</a></li>
+                                <li><a href="#" onClick={() => navigate("/homecleaning/1")}>입주청소</a></li>
+                                <li><a href="#" onClick={() => navigate("/homecleaning/2")}>이사청소</a></li>
+                                <li><a href="#" onClick={() => navigate("/homecleaning/3")}>거주청소</a></li>
                             </ul>
                         </li>
-                        <li><a href="#" onClick={() => navigate("/unina_clean_react/officecleaning")}>오피스 클리닝</a>
+                        <li><a href="#" onClick={() => navigate("/officecleaning")}>오피스 클리닝</a>
                             <ul className="lnb">
-                                <li><a href="#" onClick={() => navigate("/unina_clean_react/officecleaning")}>사무실/상가 청소</a></li>
+                                <li><a href="#" onClick={() => navigate("/officecleaning")}>사무실/상가 청소</a></li>
                             </ul>
                         </li>
                         <li><a onClick={() => handleModalToggle(true)}>견적 문의</a></li>
