@@ -20,34 +20,34 @@ function App() {
   const routes = useRoutes([
     {
       path: "*",
-      element: <Navigate to="/home" replace />,
+      element: <Navigate to="/unina_clean_react/home" replace />,
     },
     {
-      path: "/home/*",
+      path: "/unina_clean_react/home/*",
       children: [
         {
           path: "*",
-          element: <Navigate to="/home/1" replace />,
+          element: <Navigate to="/unina_clean_react/home/1" replace />,
         },
         { path: ":page", element: <HomePage /> },
       ]
     },
     {
-      path: "/homecleaning/*",
+      path: "/unina_clean_react/homecleaning/*",
       children: [
         {
           path: "*",
-          element: <Navigate to="/homecleaning/1" replace />,
+          element: <Navigate to="/unina_clean_react/homecleaning/1" replace />,
         },
         { path: ":page", element: <HomeCleaning /> },
       ]
     },
     {
-      path: "/officecleaning/*",
+      path: "/unina_clean_react/officecleaning/*",
       children: [
         {
           path: "*",
-          element: <Navigate to="/officecleaning/1" replace />,
+          element: <Navigate to="/unina_clean_react/officecleaning/1" replace />,
         },
         { path: ":page", element: <OfficeCleaning /> },
       ]

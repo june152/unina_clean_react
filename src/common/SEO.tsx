@@ -20,7 +20,7 @@ const SEO = () => {
             <meta property="og:author" content="유니나 청소" />
             <meta property="og:type" content="website" />
             <meta property="og:description" content="엄마의 손으로 못하는 청소는 없다. 거주청소/입주청소 등 청소고민 끝!" />
-            <meta property="og:url" content="http://www.uninacleans.com" />
+            <meta property="og:url" content="https://june152.github.io/unina_clean_react/" />
 
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>

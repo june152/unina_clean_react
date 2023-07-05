@@ -32,9 +32,9 @@ const HomeSide = ({page} : {page?:number}) => {
                     <h3>홈클리닝</h3>
                 </div>
                 <ul className="service-pages">
-                    <li id="index1" className={page === 1 ? 'active' : ""}><a href="#" onClick={() => navigate("/homecleaning")}>입주청소</a></li>
-                    <li id="index2" className={page === 2 ? 'active' : ""}><a href="#" onClick={() => navigate("/homecleaning/2")}>이사청소</a></li>
-                    <li id="index3" className={page === 3 ? 'active' : ""}><a href="#" onClick={() => navigate("/homecleaning/3")}>거주청소</a></li>
+                    <li id="index1" className={page === 1 ? 'active' : ""}><a href="#" onClick={() => navigate("/unina_clean_react/homecleaning")}>입주청소</a></li>
+                    <li id="index2" className={page === 2 ? 'active' : ""}><a href="#" onClick={() => navigate("/unina_clean_react/homecleaning/2")}>이사청소</a></li>
+                    <li id="index3" className={page === 3 ? 'active' : ""}><a href="#" onClick={() => navigate("/unina_clean_react/homecleaning/3")}>거주청소</a></li>
                 </ul>
             </article>
             <SideBarBottom />            
@@ -51,7 +51,7 @@ const OfficeSide = () => {
                     <h3>오피스 클리닝</h3>
                 </div>
                 <ul className="service-pages">
-                    <li id="index1" className='active'><a href="#" onClick={() => navigate("/officecleaning")}>사무실/상가청소</a></li>
+                    <li id="index1" className='active'><a href="#" onClick={() => navigate("/unina_clean_react/officecleaning")}>사무실/상가청소</a></li>
                 </ul>
             </article>
             <SideBarBottom />
